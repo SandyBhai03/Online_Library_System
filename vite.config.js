@@ -4,9 +4,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/Online_Library_System/",
   plugins: [
     react(),
     tailwindcss(),
   ],
+  base: '/Online_Library_System/',
 })
